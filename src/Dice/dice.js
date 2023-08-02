@@ -56,10 +56,10 @@ const handleClick = () => {
   
 return (
     <div>
-        <button onClick={handleClick}> Generate Random Number</button>
+        <button onClick={handleClick} className='button'> Generate Random Number</button>
         <ul>
             {numbers.map((num, index) => (
-                <li key={index}>{num}</li>
+                <li key={index} className='num-list'>{num}</li>
             ))}
         </ul>
     </div>

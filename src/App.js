@@ -1,9 +1,9 @@
-import { useState } from 'react';
+
 import React from 'react';
 
-import Dice from "./Dice/dice"
+import DiceBox from "./Dice/dice"
 import './App.css';
-import DiceBox from './Dice/dice';
+
 
 
 // const [numbers, setNumbers] = useState([null, null, null, null, null])

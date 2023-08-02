@@ -1,0 +1,28 @@
+body{
+ background-size: cover;
+  background-image:  url("./pink.png") ;
+  
+}
+.button{
+  border-radius: 40%;
+  width: 100px;
+  height: 100px;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+.button  {
+  color: rgb(192, 255, 219);
+  font-size: 18px;
+  font-weight: 900;
+  background-color: rgb(93, 93, 189);
+}
+.num-list{
+font-size: 20px;
+color: rgb(81, 255, 0);
+margin-left: 50%;
+  justify-content: center;
+  gap: 3px;
+ list-style-type: upper-roman;
+  /* height: 90px;
+  margin-left: 50%; */
+}
